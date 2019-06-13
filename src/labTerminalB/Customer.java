@@ -30,6 +30,13 @@ public class Customer {
 		 * TODO 3		10 Marks
 		 * Provide suitable specification for statement method 
 		 */
+		
+		/*             "Bad Smells" 
+		 * This Method have bad allignment ,code is not formatted well
+		 * Not proper use of comments
+		 * Use of magic Numbers as 1.5,3 etc
+		 * 
+		 */
 		public String statement() {
 		double totalAmount = 0;
 		int frequentRenterPoints = 0;
