@@ -1,14 +1,7 @@
 package labTerminalB;
 
 public class Driver {
-	/*
-	 * TODO 1	10 Marks
-	 * Write a regular express at line 10 so that you can remove all html tags from a given string
-	 * after you write regular expression the out put should be
-	 * The Good, the Bad, and the Ugly
-	 * after completing each TODO task commit and push to remote repository with commit message
-	 * 		"TODO 'TASK NUMBER' Complete" e.g. in this case "TODO 1 COMPLETED"
-	 */
+
 	public static void main(String[] args) {
 		
 		String input = "The <b>Good</b>, the <i>Bad</i>, and the <strong>Ugly</strong>";
