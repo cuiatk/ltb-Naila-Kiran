@@ -51,11 +51,7 @@ public class CustomerTest {
         assertThat(customer.statement(), is(expectedMessageFor("Spiderman", 2.0, 2.0, 1)));
     }
 
-    @Test
-    public void shouldDiscountRegularRental() {
-        customer.addRental(new Rental(SPIDER_MAN, 4));
-        assertThat(customer.statement(), is(expectedMessageFor("Spiderman", 5.0, 5.0, 1)));
-    }
+  
 
     @Test
     public void shouldSumVariousRentals() {
