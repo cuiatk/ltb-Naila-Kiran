@@ -10,9 +10,10 @@ public class Driver {
 	 * 		"TODO 'TASK NUMBER' Complete" e.g. in this case "TODO 1 COMPLETED"
 	 */
 	public static void main(String[] args) {
+		
 		String input = "The <b>Good</b>, the <i>Bad</i>, and the <strong>Ugly</strong>";
 		String regex = "TODO 1";
-		String output = input.replaceAll(regex, "");
+		String output = input.replaceAll("<[^>]*>", "");
 		System.out.println(output);
 		
 		
