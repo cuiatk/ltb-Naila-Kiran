@@ -35,7 +35,7 @@ public class Customer {
 		 * This Method have bad allignment ,code is not formatted well
 		 * Not proper use of comments
 		 * Use of magic Numbers as 1.5,3 etc
-		 * 
+		 * No proper variables names
 		 */
 		public String statement() {
 		double totalAmount = 0;
